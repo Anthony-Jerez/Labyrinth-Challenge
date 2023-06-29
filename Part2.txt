@@ -1,0 +1,41 @@
+
+task main()
+{
+    while (SensorValue(touchsensor) == 0)
+    {
+        motor[motorD] = 20;
+        motor[motorE] = 20;
+    }
+
+    motor[motorD] = -25;
+    motor[motorE] = -25;
+    wait1Msec(1350);
+
+    motor[motorD] = 0;
+    motor[motorE] = 0;
+    wait1Msec(0);
+
+    motor[motorD] = 0;
+    motor[motorE] = 50;
+    wait1Msec(1400);
+
+    while (SensorValue(touchsensor) == 0)
+    {
+        motor[motorD] = 30;
+        motor[motorE] = 30;
+    }
+
+    motor[motorD] = -25;
+    motor[motorE] = -25;
+    wait1Msec(1300);
+
+    motor[motorD] = 0;
+    motor[motorE] = 30;
+    wait1Msec(1900);
+
+    while (SensorValue(touchsensor) == 0)
+    {
+        motor[motorD] = 30;
+        motor[motorE] = 30;
+    }
+}
