@@ -1,0 +1,51 @@
+
+task main() 
+{
+    motor[motorD] = 15;
+    motor[motorE] = 15;
+    wait1Msec(2100);
+
+    motor[motorD] = 0;
+    motor[motorE] = 15;
+    wait1Msec(875);
+
+    motor[motorD] = 15;
+    motor[motorE] = 15;
+    wait1Msec(500);
+
+    motor[motorD] = 15;
+    motor[motorE] = 0;
+    wait1Msec(900);
+
+    motor[motorD] = 15;
+    motor[motorE] = 15;
+    wait1Msec(425);
+
+    motor[motorD] = 0;
+    motor[motorE] = 15;
+    wait1Msec(900);
+
+    motor[motorD] = 15;
+    motor[motorE] = 15;
+    wait1Msec(1550);
+
+    motor[motorD] = 0;
+    motor[motorE] = 15;
+    wait1Msec(817.5);
+
+    motor[motorD] = 15;
+    motor[motorE] = 15;
+    wait1Msec(2400);
+
+    motor[motorD] = 0;
+    motor[motorE] = 15;
+    wait1Msec(570);
+
+    motor[motorD] = 15;
+    motor[motorE] = 15;
+    wait1Msec(720);
+
+    motor[motorD] = -15;
+    motor[motorE] = 15;
+    wait1Msec(610);
+} 
