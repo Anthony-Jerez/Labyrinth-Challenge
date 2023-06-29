@@ -1,0 +1,45 @@
+
+task main()
+{
+    while (SensorValue(ultrasonic) > 20)
+    {
+        motor[motorD] = 20;
+        motor[motorE] = 20;
+    }
+
+    motor[motorD] = -50;
+    motor[motorE] = -50;
+    wait1Msec(200);
+
+    motor[motorD] = 50;
+    motor[motorE] = -50;
+    wait1Msec(750);
+
+    while (SensorValue(ultrasonic) > 20)
+    {
+        motor[motorD] = 50;
+        motor[motorE] = 50;
+    }
+
+    motor[motorD] = -50;
+    motor[motorE] = -50;
+    wait1Msec(200);
+
+    motor[motorD] = 50;
+    motor[motorE] = -50;
+    wait1Msec(750);
+
+    while (SensorValue(ultrasonic) > 20)
+    {
+        motor[motorD] = 50;
+        motor[motorE] = 50;
+    }
+
+    motor[motorD] = -50;
+    motor[motorE] = -50;
+    wait1Msec(200);
+
+    motor[motorD] = -50;
+    motor[motorE] = -50;
+    wait1Msec(100);
+}
