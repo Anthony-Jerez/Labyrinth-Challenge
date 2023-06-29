@@ -21,7 +21,7 @@ This project showcases my team's solution to the labyrinth challenge assigned in
 
 ## Part 1 Pseudocode:
 
-1)Turn on motor d and set speed to 15
+1. Turn on motor d and set speed to 15
 2)Turn on motor e and set speed to 15
 3)Wait 2.1 seconds
 4)Set motor d to 0 speed
@@ -63,11 +63,16 @@ This project showcases my team's solution to the labyrinth challenge assigned in
 ## Part 2 Pseudocode:
 
 Section 1: The robot will keep moving forward at a speed of 20 until the touch sensor is pressed and then it will back up.
+
 Section 2: The robot will wait.
+
 Section 3: The robot will turn for 1.4 seconds.
+
 Section 4: The robot will move forward at a speed of 30 until the touch sensor is pressed and it will back up.
+
 Section 5: The robot will make a turn for 1.9 seconds.
-Section 6: The touch sensor is programmed to make the robot back up when it’s touched and stop.
+
+Section 6: The touch sensor is programmed to make the robot back up when it’s touched.
 
 ## Part 3 Pseudocode:
 
