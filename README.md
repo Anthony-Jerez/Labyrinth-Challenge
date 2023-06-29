@@ -21,8 +21,8 @@ This project showcases my team's solution to the labyrinth challenge assigned in
 
 ## Part 1 Pseudocode:
 
-1. Turn on motor d and set speed to 15
-2)Turn on motor e and set speed to 15
+1. Turn on motor d and set speed to 15 
+2. Turn on motor e and set speed to 15 
 3)Wait 2.1 seconds
 4)Set motor d to 0 speed
 5)Set motor e to 15 speed
